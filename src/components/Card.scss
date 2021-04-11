@@ -3,7 +3,7 @@
 .card {
   overflow: hidden;
   box-shadow: 0 2px 20px lightgrey;
-  border-radius: 5px;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,7 +20,6 @@
   }
   &__desc {
     font-family: $secondary-font;
-    font-size: 0.75rem;
     padding: 0 1rem;
   }
   &__btn {
