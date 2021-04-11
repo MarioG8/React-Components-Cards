@@ -9,5 +9,28 @@
 }
 
 body {
-  font-family: $secondary-font;
+  font-size: 1rem;
+  font-family: $primary-font;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: $primary-font;
+  text-shadow: 2px 3px 9px #000;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  @include m_q(576px) {
+    font-size: 3.3rem;
+  }
+}
+
+.wrapper {
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 7rem;
+  padding: 3rem 4rem;
+  // Padding and grid-gap makes your cards position as you wish.
 }
