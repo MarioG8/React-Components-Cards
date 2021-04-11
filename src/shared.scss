@@ -1,0 +1,47 @@
+// Fonts
+$primary-font: "Cinzel", serif;
+$secondary-font: "Della Respira", serif;
+
+// Colors
+$primary_color: rgb(250, 224, 182);
+$secondary_color: rgba(250, 224, 182, 0.787);
+$sec_color-300: rgba(250, 224, 182, 0.301);
+$sec_color-500: rgba(250, 224, 182, 0.5);
+$gold: rgb(255, 188, 2);
+$gold-350: rgba(255, 188, 2, 0.35);
+$gold-700: rgba(255, 188, 2, 0.7);
+$gold-750: rgba(255, 188, 2, 0.75);
+$red: rgb(240, 9, 70);
+$blue: rgb(39, 106, 251);
+$green: rgb(37, 206, 74);
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$brown: rgb(119, 67, 35);
+$brown_bg: rgba(119, 67, 35, 0.897);
+$brown_one: rgb(64, 63, 68);
+$brown_two: rgb(151, 55, 14);
+$bg_black: rgb(17, 11, 11);
+$bg_dark: rgb(18, 19, 19);
+$nav_bg_color: rgba(18, 19, 19, 0.6);
+$menu_bg_color: rgba(18, 19, 19, 0.9);
+$footer_bg_color: rgba(26, 25, 23, 0.95);
+$footer_bg_color_two: rgba(34, 32, 33, 0.95);
+$footer_bg_color_three: rgba(22, 26, 27, 0.97);
+
+// Tools
+$transition: all 0.3s linear;
+$spacing: 0.1rem;
+$radius: 0.25rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+$silver-shadow: 0px 3px 9px rgba(silver, 0.5);
+$nav-shadow: 1px 3px 6px rgba(black, 0.5);
+$max-width: 1170px;
+$fixed-width: 620px;
+
+// Media quarries Max-Width
+@mixin m_q($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
